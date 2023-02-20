@@ -8,11 +8,123 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 8px 16px;
+  padding: 8px 200px;
+}
+
+.header-text {
+  color: #f9faf8;
+  font-size: 24px;
 }
 
 .navbar a {
   color: #e5e7eb;
   text-decoration: none;
   margin-left: 16px;
+}
+
+.hero {
+  background-color: #1f2937;
+  display: flex;
+  gap: 52px;
+  padding: 60px 200px;
+}
+
+h1 {
+  color: #f9faf8;
+  font-size: 48px;
+  font-weight: 900;
+}
+
+.hero-text {
+  color: #e5e7eb;
+  font-size: 18px;
+}
+
+.image {
+  width: 300px;
+}
+
+button {
+  background-color: #3882f6;
+  color: #f9faf8;
+  font-weight: 800;
+  padding: 8px 24px;
+  border-radius: 8px;
+}
+
+.info-panel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 200px;
+  margin-bottom: 52px;
+}
+
+.info-title {
+  color: #1f2937;
+  font-size: 36px;
+  font-weight: 900;
+}
+
+.info-images {
+  display: flex;
+  gap: 62px;
+}
+
+.info-image {
+  width: 100px;
+  border-radius: 10px;
+}
+
+.info-item {
+  width: 100px;
+}
+
+.testimonial {
+  background-color: #e5e7eb;
+  padding: 60px 300px;
+  display: flex;
+  flex-direction: column;
+}
+
+.test-quote {
+  color: #3c4a5e;
+  font-size: 32px;
+  font-style: italic;
+}
+
+.quote-author {
+  align-self: flex-end;
+  font-size: 20px;
+}
+
+.action-call {
+  background-color: #3882f6;
+  color: #f9faf8;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 64px;
+  margin: 52px 220px;
+  padding: 16px 0;
+}
+
+.cta {
+  margin-bottom: 2px;
+}
+
+.cta-info {
+  margin-top: 2px;
+}
+
+.cta-btn {
+  border: 2px solid #f9faf8;
+}
+
+.footer {
+  background-color: #1f2937;
+  color: #e5e7eb;
+  padding: 16px;
+  text-align: center;
 }
