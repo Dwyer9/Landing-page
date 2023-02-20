@@ -1,0 +1,18 @@
+body {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.header {
+  background-color: #1f2937;
+  color: #f9f1f8;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 16px;
+}
+
+.navbar a {
+  color: #e5e7eb;
+  text-decoration: none;
+  margin-left: 16px;
+}
